@@ -3,7 +3,7 @@ import dlib
 import numpy as np
 import face_recognition
 
-img = cv2.imread("../1.jpg")
+img = cv2.imread("andrew.jpg")
 all_face_location = face_recognition.face_locations(img,number_of_times_to_upsample=2, model="hog")
 
 # Slice the face from image
